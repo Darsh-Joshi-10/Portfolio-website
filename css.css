@@ -105,3 +105,16 @@ table th,td{
     font-size:1.3rem;
     margin-left:30px;
 }
+.projects{
+    margin-left:50px;  
+}
+.projects ul li{
+    margin-left: 45px;
+}
+.certificates{
+    margin-left:50px;
+    padding: 20px;
+}
+.leftSection img{
+    width: 800px;
+}
