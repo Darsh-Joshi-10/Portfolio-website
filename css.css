@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(0,0,33);
+    color:white;
+    font-family:"Poppins",sans-serif;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+    
+    background-color: rgb(18,18,62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+
+}
+.left{
+    font-size: 3rem;
+
+}
+.firstSection{
+    display: flex;
+    justify-content:space-around;
+    margin:80px 0;
+
+}
+.firstSection >div{
+    width:30%;
+}
+.leftSection{
+    font-size:2.5rem;
+    margin:30px 0;
+
+}
+div.leftSection div{
+    font-size: 2rem;
+}
+.rightSection img{
+    width:95%;
+    margin: 50px 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:rgb(153,153,226);
+    font-size:1.01rem
+}
+main hr{
+    height:0.5px;
+    background-color:rgb(153,153,226);
+    margin-top:-20px
+}
+.secondSection{
+    max-width:80vw;
+    margin:auto;
+    height:80vh
+}
+.secondSection h1{
+    font-size:1.9rem
+}
+.secondSection span{
+    font-size:0.2rem
+}
+table{
+    border-collapse: collapse;
+}
+table th,td{
+    border:5px;
+    padding:8px
+}
+.otherCourses{
+    margin-top:50px
+}
+.courses ul li{ 
+    margin-left: 1.5rem;
+}
+.rightPanel{
+
+    height:10%;
+    width:30%;
+    background-color: aqua;
+}
+.hobbies{
+    font-size:2.5rem;
+    margin:30px 0;
+    
+}
+.hobbies div{
+    margin:70px;
+    font-size:1.9rem
+}
+.hobbies div ul{
+    font-size:1.3rem;
+    margin-left:30px;
+}

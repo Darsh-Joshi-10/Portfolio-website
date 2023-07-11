@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheet.css" type="text/css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+       <header>
+        <nav>
+            <div class="left">Darsh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Certifications</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+       </header> 
+       <main>
+            <section class="firstSection">
+                <div class="leftSection">Hi, My name is <span class="purple">Darsh</span>
+                    <div>and I am a student at SRM Institute of Science and Technology.I am pursuing B.Tech in Computer Science and Engineering.</div>   <span id="element"></span>
+                </div>
+                <div class="rightSection">
+                    <img src="./images/programer.png">
+                </div>   
+            </section>
+            <hr>
+            <section class="secondSection">
+                <h1>Educational Qualifications:</h1>
+                <br>
+                <table>
+                    <tr>
+                      <th>Sr. No.</th>
+                      <th>Qualification</th>
+                      <th>Year</th>
+                      <th>Percentage/CGPA</th>
+                      <th>Institution Name</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>10<superscript>th</superscript> Grade</td>
+                      <td>2019</td>
+                      <td>82%</td>
+                      <td>Bharatiya Vidya Bhavan's GIPCL Academy</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>12<superscript>th</superscript> Grade</td>
+                      <td>2021</td>
+                      <td>88%</td>
+                      <td>Bharatiya Vidya Bhavan's GIPCL Academy</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>B.Tech in Computer Science and Engineering</td>
+                        <td>2025</td>
+                        <td> </td>
+                        <td>SRM Institute of Science and Technology</td>
+                      </tr>
+                  </table>
+                  <div class="otherCourses">
+                    <h2>Other courses:</h2>
+                    <div class="courses">
+                        I have completed several online courses from multiple websites:
+                        <ul type="square">
+                            <li>A complete 2023 Web Development Bootcamp | Udemy</li>
+                            <li>100 Days of Code-Python | Replit</li>
+                            <li>Foundations of digital marketing and e-commerce | Coursera</li>
+                            <li>Foundations user-experience design | Coursera</li>
+                        </ul>
+                    </div>
+                  </div>
+            </section>
+       </main>
+       <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+       <script>
+        var typed = new Typed('#element', {
+          strings: ["Python","C/C++","Web Development","Java","DBMS"],
+          typeSpeed: 50,
+        });
+        </script>
+</body>
+</html>
